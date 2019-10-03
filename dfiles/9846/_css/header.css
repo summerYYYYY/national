@@ -1,0 +1,122 @@
+/*头部连接以及功能栏*/
+@media screen and (min-width:800px){
+  #header-l{
+    display: block;
+  }
+}
+
+@media screen and (max-width:750px) {
+  #header-l {
+    display: none;
+  }
+}
+
+#header-l { 
+  background-color: #1D011B;
+}
+
+#header-l>.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+#header-l>.container>.h-links {}
+
+#header-l>.container>.h-functions {
+  float: right;
+}
+
+#header-l>.container>.h-links,
+#header-l>.container>.h-functions {
+  margin-left: 12px;
+  display: inline-block;
+}
+
+#header-l>.container>.h-links a,
+#header-l>.container>.h-functions a {
+  display: inline-block;
+  margin: 0 6px;
+  height: 39px;
+  line-height: 39px;
+  color: #cdbccc;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#header-l>.container>.h-links a:hover,
+#header-l>.container>.h-functions a:hover {
+  color: #ffffff;
+}
+#header-l>.container>.h-functions>.search {
+  border-radius: 20px;
+  border: 1px solid #8a8a8a;
+  display: inline-block;
+  margin-left: 10px;
+  /* background-color: #ffffff; */
+}
+
+#header-l>.container>.h-functions>.search>.s-input {
+  display: flex;
+  padding:0 5px 0 10px;
+}
+
+#header-l>.container>.h-functions>.search>.s-input>input {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  ;
+  color: #cdbccc;
+  width: 120px;
+}
+
+#header-l>.container>.h-functions>.search>.s-input>.s-button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../../图片/search.png') no-repeat center;
+  background-size: 20px;
+  cursor: pointer;
+}
+#header-l>.container>.h-functions>.search>.s-input>.s-button:hover{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../../图片/search-hover.png') no-repeat center;
+  background-size: 20px;
+  cursor: pointer;
+}
+
+/*头部logo和搜索栏*/
+#header {
+  /* background-color: #05c46b; */
+  background-color: #f5f5f5;
+  height: 100px;
+  position: relative;
+}
+@media screen and (max-width: 1132px) {
+  #header>.logo {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 35px;
+    top: 10px;
+  }
+#header>.logo> .info{
+  display: none;
+}
+}
+#header>.logo{
+  position: relative;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 35px;
+  top: 10px;
+}
+#header>.logo>a {
+/* border: 1px solid red; */
+width: 350px;
+}
+
+#header>.logo>a>img {
+
+}

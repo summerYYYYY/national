@@ -1,0 +1,86 @@
+#nav {
+  background-color: #fff;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1064px) {
+  #nav{
+    display: none;
+  }
+}
+
+#nav>.nav-ul {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1140px;
+  margin: 0 auto;
+  /* border: 1px solid seagreen; */
+}
+
+#nav>.nav-ul .ul-item {
+  display: block;
+  /* border: 1px solid yellow; */
+  width: 150px;
+  
+}
+
+#nav>.nav-ul .ul-item .item-wrapper {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+#nav>.nav-ul .ul-item .item-wrapper:hover{
+  color: #fff;
+  background-color: #e4f0f9;
+}
+#nav>.nav-ul .ul-item .item-wrapper>a {
+  display: block;
+  color: #0067B8;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#nav>.nav-ul .ul-item .item-wrapper>i {
+  /* border: 1px solid saddlebrown; */
+  width: 20px;
+  height: 10px;
+  background: url('../../../图片/select.png') no-repeat center;
+  cursor: pointer;
+}
+
+#nav>.nav-ul .ul-item .item {
+  /* border: 1px solid rebeccapurple; */
+  visibility: hidden;
+  height: 0px;
+  transition: all  0.7s;
+  -moz-transition: all 0.7s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.7s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.7s;
+  /* Opera */
+}
+
+#nav>.nav-ul .ul-item .item li {
+  display: block;
+
+}
+
+#nav>.nav-ul .ul-item .item li a {
+  display: block;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  width: 140px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#nav>.nav-ul .ul-item .item li a:hover {
+  background-color: #e4f0f9
+}

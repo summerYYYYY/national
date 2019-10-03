@@ -1,0 +1,222 @@
+#content {
+
+  max-width: 1150px;
+  /* border: 1px solid red; */
+  margin: 10px auto; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+#content .news {
+  height: 540px;
+  /* border: 1px solid red; */
+}
+@media screen and (max-width: 1132px) {
+  #content .news{
+    margin: 0 auto;
+  }
+}
+#content-area {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+#content-area h3 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  color: #0067B8;
+}
+
+#content-area h3 a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #0067B8;
+}
+
+#content-area .more-btn {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 50px;
+        margin-bottom: -12px;
+        float: right;
+}
+
+#content-area .more-btn a {}
+
+#content-area .more-btn a i {
+    height: 40px;
+    width: 18px;
+    background: url('../../../图片/more.png') no-repeat center;
+    background-size: 90%;
+    /* border: 1px solid red; */
+    line-height: 40px;
+}
+
+#content .news .ul-item {
+  width: 750px;
+  height: 475px;
+  /* border: 1px solid red; */
+}
+
+#content .news .ul-item {
+  /* margin: 0 auto; */
+}
+
+#content .news .ul-item .item {
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  border-top: 3px solid #0067B8;
+  width: 320px;
+  height: 197px;
+  margin-right: 50px;
+  margin-bottom: 54px;
+  border-top: 3px solid #0067B8;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+#content .news .ul-item .item .title {
+  color: #0067B8;
+  line-height: 20px;
+  margin: 14px 0 0px 0;
+  font-size: 16px;
+}
+
+#content .news .ul-item .item .time {
+  line-height: 22px;
+  margin: 8px 0;
+  font-size: 18px;
+  font-family: "corbel";
+}
+
+#content .news .ul-item .item .content {
+  line-height: 22px;
+  margin-top: 20px;
+  height: 112px;
+  overflow: hidden;
+  color: #333;
+}
+
+/*********************************************************/
+
+#spotlight {
+  height: 500px;
+      width: 370px;
+      /* display: inline-block;
+      float: right; */
+}
+@media screen and (max-width: 1132px) {
+  #spotlight {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+#content-area2 {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+#content-area2 h3 {
+  display: inline-block;
+  /* float: left; */
+  font-size: 20px;
+  font-weight: normal;
+  color: #0067B8;
+}
+
+#content-area2 h3 a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #0067B8;
+}
+
+#content-area2 .more-btn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 8px;
+      margin-bottom: -12px;
+      float: right;
+}
+
+#content-area2 .more-btn a {}
+
+#content-area2 .more-btn a i {
+  height: 40px;
+  width: 18px;
+  background: url('../../../图片/more.png') no-repeat center;
+  background-size: 90%;
+  /* border: 1px solid red; */
+  line-height: 40px;
+
+}
+
+#spotlight .ul-item {
+  padding: 0px 30px;
+  /* padding-bottom: 30px; */
+  padding-top: 10px;
+  background-color: #F5F5F5;
+  border-top: 3px solid #0067B8;
+  height: 475px;
+}
+
+#spotlight .ul-item .item {
+  line-height: 24px;
+  padding-left: 0px;
+  display: flex;
+      padding: 16px 0;
+      border-bottom: 1px solid #C1B394;
+      margin-bottom: 20px;
+}
+
+#spotlight .ul-item .item .time {
+  width: 61px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  /* margin-top: 8px;*/
+}
+
+#spotlight .ul-item .item .time .day {
+  font-size: 20px;
+  color: #fff;
+  height: 32px;
+  line-height: 32px;
+  background-color: #0067B8;
+}
+
+#spotlight .ul-item .item .time .year {
+  height: 30px;
+  line-height: 30px;
+  color: #797979;
+  background-color: #fff;
+}
+
+#spotlight .ul-item .item .title {
+  width: 210px;
+  float: right;
+  line-height: 22px;
+  padding: 10px;
+}
+@media screen and (max-width: 1132px) {
+  #spotlight .ul-item .item .title{
+    width: 100%;
+  }
+}
+#spotlight .ul-item .item .title a {
+  color: #0067B8;
+  font-size: 15px;
+}

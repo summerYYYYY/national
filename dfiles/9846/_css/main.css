@@ -1,0 +1,93 @@
+ html {
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   overflow-y: scroll;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   /* background: #390336; */
+ }
+
+ body {
+   background-color: #ffffff;
+ }
+
+ body,
+ p,a,div,li{
+   font: 12px/1 Helvetica, STHeiti STXihei, Microsoft JhengHei, Microsoft YaHei, Tohoma, Arial;
+   color: #333;
+   font-family: "Microsoft YaHei";
+ }
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ .wrapper {
+   width: 100%;
+ }
+
+ div {
+   display: block;
+ }
+
+ ul {
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+ }
+
+ a {
+   text-decoration: none;
+   color: #333;
+   cursor: pointer;
+ }
+a:hover{
+  text-decoration: underline;
+}
+ li,
+ ol {
+   list-style: none;
+ }
+
+ li {
+   text-align: -webkit-match-parent;
+ }
+
+ div,
+ i,
+ span,
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ ul,
+ ol,
+ a {
+   display: block;
+ }
+
+ input {
+   outline: none;
+ }
+
+ div,
+ i,
+ span,
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ ul,
+ ol,
+ a,
+ li {
+   margin: 0;
+   padding: 0;
+ }
